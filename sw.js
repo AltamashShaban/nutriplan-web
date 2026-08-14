@@ -13,7 +13,7 @@
      - everything else (icons)     -> cache first, since those are static
    The app still opens with no network; it just stops pinning itself to a
    stale page. */
-const VERSION = 'v37';
+const VERSION = 'v40';
 const CACHE = 'nutriplan-' + VERSION;
 const ASSETS = [
   './', './index.html', './manifest.json',
